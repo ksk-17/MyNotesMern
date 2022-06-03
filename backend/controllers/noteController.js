@@ -7,6 +7,9 @@ const getNotes = asyncHandler(async(req,res)=>{
 });
 
 const createNote = asyncHandler(async(req,res)=>{
+    if(!req){
+        return;
+    }
     const {title,content,category}=req.body;
 
     if(!title || !content || !category){

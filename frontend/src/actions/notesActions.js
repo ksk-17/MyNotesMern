@@ -50,6 +50,7 @@ export const createNoteAction = (title,content,category)=>async(dispatch,getStat
             },
         };
 
+
         const {data} = await axios.post('api/notes/create',
         {title,content,category},config);
 
