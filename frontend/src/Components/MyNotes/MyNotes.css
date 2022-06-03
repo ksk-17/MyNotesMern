@@ -1,0 +1,20 @@
+.button{
+    margin:10px;
+}
+
+.card{
+    margin: 10px;
+}
+
+.cardheader{
+    display: flex;
+}
+
+.cardtitle{
+    color:black;
+    text-decoration: none;
+    flex: 1;
+    cursor: pointer;
+    align-self: center;
+    font-size: 20;
+}

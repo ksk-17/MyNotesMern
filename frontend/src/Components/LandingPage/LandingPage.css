@@ -1,0 +1,17 @@
+.landingpage{
+    min-height: 93vh;
+    display: flex;
+    align-items: center;
+    background-image: url("../../../public/wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.title{
+    text-align: center;
+    text-shadow: 2px 2px 2px whitesmoke;
+}
+
+Button{
+    margin:5px;
+}
